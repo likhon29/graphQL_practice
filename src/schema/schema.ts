@@ -6,6 +6,7 @@ export const typeDefs = `
         posts: [Post]
         post(id: ID!): Post
         me: User
+        profile(id: ID!): Profile
     }
 
     type Mutation {
